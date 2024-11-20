@@ -2,7 +2,7 @@ import { GoArrowRight } from "react-icons/go";
 
 const Customise = () => {
   return (
-  <section className='w-full lg:justify-between justify-center flex items-center lg:flex-row flex-col 2xl:px- [220px] lg:px-[32px] md:px-[20px] px-[16px]  lg:py-[140px] py-[100px] xl:gap-[98px] gap-[60px]'>
+  <section className='w-full lg:justify-between justify-center overflow-x-hidden flex items-center lg:flex-row flex-col 2xl:px- [220px] lg:px-[32px] md:px-[20px] px-[16px]  lg:py-[140px] py-[100px] xl:gap-[98px] gap-[60px]'>
     <div className='z-10 2xl:w-[714px] 2xl:h-[532.09px] xl:w-[670px] xl:h-[499.3px] lg:w-[534px] lg:h-[397.95px]  md:w-[534px] md:h-[397.95px] w-[288px] h-[214.62px] bg-[#C4DEFD]'></div>
     <div className='flex z-10 flex-col lg:items-start items-center gap-[60px] 2xl:w-[656px] xl:w-[691px] lg:w-[562px]'>
         <div className='flex relative flex-col lg:text-start text-center gap-[24px]'>
