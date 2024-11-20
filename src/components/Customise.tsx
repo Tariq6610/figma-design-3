@@ -14,7 +14,7 @@ const Customise = () => {
         </h1>
         <p className='text-[18px] font-normal leading-[30px] tracking-[-2%] [word-spacing:0.1em]'>Customise the app with plugins, custom themes and multiple text editors (Rich Text or Markdown). Or create your own scripts and plugins using the Extension API.</p>
         </div>
-        <button className='flex justify-center items-center gap-2 rounded-md self-auto text-white lg:w-[201px] lg:h-[63px] md:w-[190px] md:h-[59px] h-[70px] w-[200px] bg-[#4F9CF9]'>Let's go <GoArrowRight /> </button>
+        <button className='flex justify-center items-center gap-2 rounded-md self-auto text-white lg:w-[201px] lg:h-[63px] md:w-[190px] md:h-[59px] h-[70px] w-[200px] bg-[#4F9CF9]'>Let&apos;s go <GoArrowRight /> </button>
     </div>
   </section>
   )

@@ -1,5 +1,3 @@
-import { IoMdCheckmarkCircleOutline } from "react-icons/io";
-
 const ClientsResponse = () => {
   return (
    <section className='2xl:px-[220px] flex flex-col justify-center gap-[60px] lg:px-[32px] md:px-[20px] px-[16px]  lg:py-[140px] py-[100px]'>

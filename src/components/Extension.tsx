@@ -12,10 +12,8 @@ const Extension = () => {
           </span>
           </h1>
         <p className='text-[18px] font-normal leading-[30px] tracking-[-2%] [word-spacing:0.1em]'>Use the web clipper extension, available on Chrome and Firefox, to save web pages or take screenshots as notes.</p>
-
-
         </div>
-        <button className='flex justify-center items-center gap-2 rounded-md self-auto text-white lg:w-[201px] lg:h-[63px] md:w-[190px] md:h-[59px] h-[70px] w-[200px] bg-[#4F9CF9]'>Let's go <GoArrowRight /> </button>
+        <button className='flex justify-center items-center gap-2 rounded-md self-auto text-white lg:w-[201px] lg:h-[63px] md:w-[190px] md:h-[59px] h-[70px] w-[200px] bg-[#4F9CF9]'>Let&apos;s go <GoArrowRight /> </button>
     </div>
     <div className='z-10 xl:w-[686px] xl:h-[479px] lg:w-[459px] lg:h-[320.5px]  md:w-[557px] md:h-[388.93px] w-[284.5px] h-[198.65px] bg-[#C4DEFD]'></div>
 </section>
