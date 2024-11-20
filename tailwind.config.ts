@@ -1,4 +1,6 @@
-import type { Config } from "tailwindcss";
+import type { Config, }  from "tailwindcss";
+import  plugin  from "tailwindcss/plugin";
+
 
 const config: Config = {
   content: [
@@ -7,6 +9,22 @@ const config: Config = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    screens: {
+      'sm': '320px',
+
+
+      'md': '768px',
+    
+
+      'lg': '1152px',
+
+
+      'xl': '1440px',
+  
+
+      '2xl': '1920px',
+  
+    },
     extend: {
       colors: {
         background: "var(--background)",
@@ -14,6 +32,14 @@ const config: Config = {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    plugin(function({ addVariant}) {
+       // Adding the 'hocus' variant
+      addVariant('hocus', ['&:hover', '&:focus']);
+      // Adding the 'group-hocus' variant
+      addVariant('group-hocus', [".group:hover &", ".group:focus &"]);
+
+    }),
+  ],
 };
 export default config;
